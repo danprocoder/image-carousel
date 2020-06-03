@@ -4,4 +4,18 @@
     background: black;
     display: flex;
     flex-direction: row;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 25px 40px;
 }
