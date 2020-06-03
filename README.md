@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/586ad629-75a5-4b1b-ab67-2fbe66c45720/deploy-status)](https://app.netlify.com/sites/determined-brahmagupta-1e123e/deploys)
+
 # ImageCarousel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
