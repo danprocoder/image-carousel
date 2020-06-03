@@ -1,0 +1,58 @@
+:host {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  font-family: Georgia;
+}
+
+.model-name {
+  font-size: 61px;
+  line-height: 1.31;
+  color: #141414;
+}
+
+.switcher {
+  position: relative;
+  display: block;
+
+  .active {
+    width: 25%;
+    text-align: center;
+    position: absolute;
+
+    .roman {
+      font-size: 25px;
+      color: #141414;
+    }
+
+    .line2 {
+      height: 5px;
+      background: black;
+      margin-top: 5px;
+    }
+
+    .next-picture {
+      font-size: 11px;
+      font-style: italic;
+      line-height: 1.09;
+      color: #484646;
+      margin-top: 5px;
+    }
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 36px;
+  }
+}
+
+footer {
+  background: black;
+  font-size: 15px;
+  line-height: 1.13;
+  color: #ffffff;
+}
