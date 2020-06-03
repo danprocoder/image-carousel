@@ -28,8 +28,11 @@ export class ImageDetailsComponent implements OnInit {
     };
   }
 
-  onNextClicked(): any {
+  onNextClicked($event: any): any {
     this.service.switchImage();
+
+    $event.preventDefault();
+    return false;
   }
 
 }

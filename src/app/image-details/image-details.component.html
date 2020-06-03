@@ -1,33 +1,40 @@
-<div>PRINCE AKACHI</div>
+<div class="top-name">PRINCE AKACHI</div>
 
 <div style="flex-grow: 1; display: flex; flex-direction: row;">
     <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: center;">
-        <div style="transform: rotate(-90deg); transform-origin: 0% 0%;">Instagram</div>
+        <div class="instagram"><a href="#">Instagram</a></div>
     </div>
-    <div>
-        <div>
-            <a href="#">Section</a>
-            <a href="#">Extra</a>
-            <a href="#">+</a>
-        </div>
-        <div>
+    <div class="body">
+        <nav>
+            <div class="left">
+                <a href="#">Section</a>
+                <a href="#">Extra</a>
+            </div>
+            <div class="right"> 
+                <a href="#" style="justify-self: flex-end;">+</a>
+            </div>
+        </nav>
+
+        <div class="name-container">
             <div class="model-name">{{image.name}}</div>
-            <div>Model</div>
+            <div class="model">Model</div>
         </div>
         
-        <div class="switcher" (click)="onNextClicked()">
-            <div class="active" [style]="getLeftPos()">
-                <div class="roman">{{imagePosition | roman}}/{{totalImages | roman}}</div>
-                <div class="line2"></div>
-                <div class="next-picture">Next Picture</div>
-            </div>
-            
-            <div class="line"></div>
+        <div class="switcher-container">
+            <a href="#" class="switcher" (click)="onNextClicked($event)">
+                <div class="active" [style]="getLeftPos()">
+                    <div class="roman">{{imagePosition | roman}}/{{totalImages | roman}}</div>
+                    <div class="line2"></div>
+                    <div class="next-picture">Next Picture</div>
+                </div>
+                
+                <div class="line"></div>
+            </a>
         </div>
     </div>
 </div>
 
 <footer>
-    <div>Nigeria, Lagos</div>
+    <div class="location">Nigeria, Lagos</div>
     <div>Model</div>
 </footer>

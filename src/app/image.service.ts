@@ -8,22 +8,22 @@ export class ImageService {
 
   images: any[] = [
     {
-      name: 'Belle Christelle',
+      name: 'Belinda Christelle',
       src: 'assets/images/image1.jpg',
       background: '#0e1d33'
     },
     {
-      name: 'Belle Christelle',
+      name: 'Belinda Christelle',
       src: 'assets/images/image2.jpg',
       background: '#543000'
     },
     {
-      name: 'Belle Christelle',
+      name: 'Belinda Christelle',
       src: 'assets/images/image3.png',
       background: '#420422'
     },
     {
-      name: 'Belle Christelle',
+      name: 'Belinda Christelle',
       src: 'assets/images/image4.jpg',
       background: '#230a22'
     },
